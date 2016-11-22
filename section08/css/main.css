@@ -11,6 +11,8 @@ div {
 img {
   border: 10px groove orangered;
   border-radius: 100%;
+  padding: 20px;
+  margin: 40px;
 }
 
 .dogone {
