@@ -1,0 +1,27 @@
+div {
+  width: 200px;
+  height: 100px;
+  border:  2px solid black;
+}
+
+p {
+  color: green;
+  border: 2px solid blue;
+}
+
+
+#ID {
+  color: blue;
+}
+
+/*a:link {
+  color: pink;
+}*/
+
+[href] {
+  color: yellow;
+}
+
+.cl {
+  color: red;
+}
