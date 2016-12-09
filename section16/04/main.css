@@ -1,0 +1,21 @@
+body{
+  display: flex;
+  flex-flow: row wrap;
+
+  /*formatting*/
+  width: 100%;
+  border: 5px dotted red;
+  padding: 0;
+  margin: 0 auto;
+}
+
+div{
+  width: 100%;
+  min-height: 75px;
+  border: 2px solid blue;
+  text-align: center;
+  box-sizing: border-box;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url("../../section07/img/dog.jpg");
+}
