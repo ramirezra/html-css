@@ -1,0 +1,8 @@
+div {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+nav, article, aside{
+  width: 33.33%;
+}

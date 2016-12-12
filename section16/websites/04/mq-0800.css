@@ -1,0 +1,18 @@
+.Aside1 {
+  width: 15%;
+  order: 1;
+}
+
+.Aside2 {
+  width: 15%;
+  order: 3;
+}
+
+.Article {
+  width: 70%;
+  order: 2;
+}
+
+.Footer {
+  order: 4;
+}

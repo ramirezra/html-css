@@ -1,0 +1,23 @@
+ul {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-end;
+  /*style*/
+  /*background-color: skybue;*/
+  list-style: none;
+}
+
+li {
+
+  /*style*/
+  border: 0 solid skyblue;
+  padding: 1rem;
+
+  color: white;
+
+}
+
+li:hover{
+  background-color: darkgreen;
+  color: skyblue;
+}

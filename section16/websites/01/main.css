@@ -1,0 +1,19 @@
+ul {
+  /*style*/
+  background-color: lightgreen;
+  list-style: none;
+}
+
+li {
+
+  /*style*/
+  border-top: 1px solid white;
+  border-bottom: 1px solid gray;
+  color: white;
+
+}
+
+li:hover{
+  background-color: navy;
+  color: skyblue;
+}
