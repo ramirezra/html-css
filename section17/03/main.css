@@ -1,0 +1,17 @@
+section {
+  position: relative;
+  width: 600px;
+  height: 600px;
+  background-color: rgba(255, 0, 0, 0.5);
+  border: 2px solid red;
+}
+
+aside {
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  border: 2px solid red;
+  background-color: hotpink;
+  right: 50px;
+  top: 250px;
+}
