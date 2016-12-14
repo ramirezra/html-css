@@ -1,0 +1,16 @@
+#idx-atf{
+  height: 100vh;
+  border: 10px solid hotpink;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.idx-center{
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  border: 10px solid hotpink;
+}

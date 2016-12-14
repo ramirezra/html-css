@@ -1,0 +1,24 @@
+#idx-atf{
+  height: 100vh;
+  border: 10px solid hotpink;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: darkgray;
+  background-image: url("../img/background-photo.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-origin: border-box;
+  background-attachment: fixed;
+}
+
+.idx-center{
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  border: 10px solid hotpink;
+}
