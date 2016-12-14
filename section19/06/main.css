@@ -1,0 +1,12 @@
+body, div {
+  padding: 0;
+  margin: 0;
+}
+
+div {
+  height: 100vh;
+  background-image: url("../dog.png");
+  background-repeat: no-repeat;
+  background-size: 33%;
+  background-color: silver;
+}
