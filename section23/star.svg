@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.1"
+   viewBox="0 0 100 100"
+   id="svg3336"
+   inkscape:version="0.91 r"
+   sodipodi:docname="star.svg">
+  <metadata
+     id="metadata3346">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs3344" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1280"
+     inkscape:window-height="750"
+     id="namedview3342"
+     showgrid="false"
+     inkscape:zoom="5.32"
+     inkscape:cx="50"
+     inkscape:cy="50"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg3336" />
+  <path
+     inkscape:connector-curvature="0"
+     id="path3349"
+     style="font-size:medium;line-height:125%;font-family:FontAwesome;letter-spacing:0px;word-spacing:0px;fill:#000000"
+     d="m 95.267857,40.288086 q 0,1.196987 -1.41462,2.611607 l -19.750279,19.260603 4.679129,27.204241 q 0.05441,0.380859 0.05441,1.088169 0,1.142579 -0.598494,1.904297 -0.544085,0.816128 -1.632254,0.816128 -1.033761,0 -2.176339,-0.652902 L 50,79.679827 25.570592,92.520229 q -1.196987,0.652902 -2.17634,0.652902 -1.142578,0 -1.741071,-0.816128 -0.544085,-0.761718 -0.544085,-1.904297 0,-0.32645 0.108817,-1.088169 L 25.897042,62.160296 6.092355,42.899693 q -1.3602121,-1.469029 -1.3602121,-2.611607 0,-2.013114 3.046875,-2.50279 L 35.092076,33.813477 47.333984,9.0576172 Q 48.367746,6.8268694 50,6.8268694 q 1.632255,0 2.666016,2.2307478 l 12.241908,24.7558598 27.313058,3.971819 q 3.046875,0.489676 3.046875,2.50279 z" />
+</svg>
