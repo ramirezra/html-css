@@ -1,8 +1,46 @@
-svg {
-  border: 5px solid red;
+svg{
+  width: 5rem;
+  height: 5rem;
+}
+
+fieldset {
+    border: 2px solid black;
+    margin: 30px;
+}
+
+legend {
+    font-size: 2rem;
 }
 
 .c0 {
     width: 5rem;
     height: 5rem;
+}
+
+.c1 {
+    width: 8rem;
+    height: 8rem;
+    fill: red;
+}
+
+.c1:hover {
+    fill: black;
+}
+
+.c2 {
+    width: 12rem;
+    height: 12rem;
+    fill: blue;
+    stroke: black;
+}
+
+.c2:hover {
+    fill: goldenrod;
+    stroke: red;
+    stroke-width: 2px;
+}
+
+img {
+  width: 3rem;
+  height: 3rem;
 }
