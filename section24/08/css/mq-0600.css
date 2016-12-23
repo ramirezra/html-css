@@ -18,17 +18,17 @@ header{
   background-color: rgba(0, 0, 0, 0.6);
 }
 
-header div {
-  width: 100%;
+header div, header nav {
+  width: 16rem;
   height: 80%;
   margin: 0 1rem;
   display: flex;
   align-items: center;
-  justify-content: center;
 }
 
+
 header div a {
-  justify-content: center;
+  justify-content: flex-start;
   display: flex;
   align-items: center;
 }
@@ -38,16 +38,17 @@ header div a:hover {
 }
 
 header div a svg{
-  display: none;
+  display: flex;
 }
+
 header div a h1{
   font-size: 1rem;
+  margin-left: .5rem;
 }
 
 header nav{
   justify-content: space-between;
   height: 100%;
-  display: none;
 }
 
 header nav a {
@@ -61,6 +62,7 @@ header nav a:hover {
   border-radius: 5px;
 }
 
+
 .idx-hdr-svg{
   fill: currentColor;
   width: 30px;
@@ -73,12 +75,14 @@ header nav a:hover {
 
 #idx-atf{
   height: 100vh;
+
+
   display: flex;
   justify-content: center;
   align-items: center;
 
   background-color: darkgray;
-  background-image: url("../img/background-photo-mobile-devices.jpg");
+  background-image: url("../img/background-photo.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -87,7 +91,7 @@ header nav a:hover {
 }
 
 #idx-atf > div{
-  height: 80vh;
+  height: 24vh;
 }
 
 .idx-center-spacebetween{
@@ -106,33 +110,32 @@ header nav a:hover {
 
 }
 
+.menu {
+  display: none;
+}
 h1{
-  font-size: 1.5rem;
-  text-align: center;
+  font-size: 3rem;
 }
 
 h2 {
-  font-size: 1rem;
+  font-size: 1.4rem;
   font-weight: 700px;
   padding-bottom: 0.5rem;
-  text-align: center;
 }
 
 h3 {
-  font-size: 1rem;
-  text-align: center;
+  font-size: 1.4rem;
 
 }
 
 
 button{
-  font-size: 1rem;
+  font-size: 1.4rem;
   font-weight: 700px;
   border: 1px solid rgb(202,250,234);
   color: rgb(202,250,234);
   padding: .7rem 1.2rem;
   border-radius: 3px;
-  text-align: center;
 }
 
 button:hover {
