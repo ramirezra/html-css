@@ -1,0 +1,25 @@
+.atf {
+  height: 100vh;
+  width: 80vw;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-size: 3vw;
+}
+
+.container{
+  display: flex;
+  flex-flow: row nowrap;
+  border-bottom: 2px solid dimgray;
+}
+
+.tab {
+  padding: 2rem;
+
+}
+
+.tab:hover{
+  border-bottom: 4px solid turquoise;
+}
