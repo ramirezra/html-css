@@ -1,0 +1,69 @@
+nav{
+  /*layout*/
+  position: fixed;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  width: 100vw;
+  height: 5vh;
+
+  /*format*/
+  color: white;
+  font-size: 3vh;
+  background-color: darkgrey;
+}
+
+nav section{
+  display: flex;
+  justify-content: center;
+  height: 5vh;
+}
+
+.left a button{
+  width: 7vw;
+  height: 5vh;
+}
+
+.right a button{
+  width: 7vw;
+  height: 5vh;
+}
+
+button:hover{
+  background-color: whitesmoke;
+  color: dimgrey;
+}
+.menu{
+  fill: white;
+  height: 30px;
+  width: 30px;
+}
+
+.right{
+  margin-right: 2rem;
+}
+
+.atf{
+  height: 100vh;
+
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.atf-center{
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.image{
+  fill: hotpink;
+  height: 25vh;
+}
+
+div h1{
+  font-size: 10vw;
+}
