@@ -1,0 +1,34 @@
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+h1{
+  font-size: 10vh;
+  animation-name: ftsize;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.red{
+  color: red;
+}
+
+.blue {
+  color: blue;
+}
+
+.white{
+  color: white;
+  background-color: black;
+}
+
+@keyframes ftsize {
+  0% { font-size: 10vh; }
+  50% { font-size: 40vh; }
+  100% { font-size: 80vh; }
+
+}
