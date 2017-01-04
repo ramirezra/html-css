@@ -1,0 +1,40 @@
+body {
+  height: 100vh;
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+nav{
+  width: 15vw;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-between;
+  padding: 5vh 0;
+}
+
+.top{
+  display: flex;
+  flex-flow: column nowrap;
+
+}
+
+.bottom{
+  display: flex;
+  justify-content: center;
+}
+
+main{
+  width: 85vw;
+  border-left: 2px solid #E1E4E5;
+
+}
+
+button{
+  padding: 1rem;
+  font-size: 3vh;
+  color: #00A1D9;
+}
+
+button:hover{
+  background-color: #EEF3F5;
+}

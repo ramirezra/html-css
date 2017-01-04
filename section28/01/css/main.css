@@ -1,0 +1,76 @@
+.atf{
+  height: 100vh;
+  color: grey;
+  font-size: 13vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 20vh;
+  border-top: 3px solid grey;
+  margin: 0 5vw;
+}
+
+
+.left {
+  margin-left: 5vw;
+  width: 15vw;
+  color: gray;
+  fill: gray;
+  font-size: 5vh;
+  height: 7vh;
+
+  display: flex;
+  justify-content: flex-end;
+ }
+
+.icon{
+  animation-name: spin;
+  animation-timing-function: linear;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes spin {
+  0%{ transform: rotate(0deg); }
+  100%{ transform: rotate(360deg);}
+}
+
+.right{
+  margin-right: 5vw;
+  height: 7vh;
+  font-size: 5vh;
+  display: flex;
+  justify-content: flex-start;
+}
+
+button {
+  font-size: 5vh;
+  padding: 1vh 2vw;
+}
+
+.reset{
+  color: skyblue;
+}
+
+.save {
+  background-color: skyblue;
+  color: white;
+}
