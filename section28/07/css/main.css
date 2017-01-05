@@ -1,3 +1,9 @@
+p {
+
+  display: flex;
+  flex-flow: row wrap;
+}
+
 .atf{
   height: 100vh;
 
@@ -7,10 +13,10 @@
 }
 
 .card {
-  height: 35%;
-  width: 15%;
+  height: 60%;
+  width: 25%;
   border: 2px solid #D7DBDD;
-
+  font-size: 1.5rem;
   display: flex;
   flex-flow: column nowrap;
   justify-content: center;
@@ -21,6 +27,7 @@
 
 .icon {
   fill: #BBD2DB;
+  height: 25vh;
 }
 
 .top{
@@ -31,8 +38,9 @@
   color: #56727d;
   height: 85%;
   width: 100%;
-  font-size: 1.2rem;
+
 }
+
 .bottom{
   display: flex;
   flex-flow: column nowrap;
@@ -44,7 +52,6 @@
   background-color: #EEF3F5;
   color: #67808A;
   border-top: #D7DBDD;
-  font-size: 1.2rem;
   font-weight: 900;
 
 }
