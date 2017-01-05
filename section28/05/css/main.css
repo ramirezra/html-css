@@ -1,0 +1,23 @@
+.atf{
+  margin: 10vh 15vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #D4E2E8;
+  border-radius: 15px;
+  padding: 5vh 5vw;
+}
+
+  section{
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: flex-start;
+  fill: #BBD2DB;
+  color: #BBD2DB;
+  font-size: 2rem;
+}
+
+.top, .middle {
+  border-bottom: 1px solid #D4E2E8;
+}

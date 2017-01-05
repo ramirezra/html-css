@@ -1,0 +1,35 @@
+.atf{
+  height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  height: 30%;
+  width: 15%;
+  border: 2px solid #D7DBDD;
+
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+
+
+}
+
+.icon {
+  fill: #BBD2DB;
+}
+
+.top{
+  height: 85%;
+}
+.bottom{
+  height: 15%;
+  background-color: #EEF3F5;
+  color: #67808A;
+  border-top: #D7DBDD;
+
+}
