@@ -1,0 +1,96 @@
+header {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+header h1 {
+  font-size: 2rem;
+}
+
+header nav {
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+header nav button {
+  background-color: #f6f6f6;
+  padding: 0.3rem;
+  border-radius: 3px;
+
+}
+
+
+.banner{
+  background-image: url("../img/fam_blur_under_600_web_medium.jpg");
+  background-size: cover;
+  width: 100%;
+  height: 20vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column nowrap;
+
+  color: white;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+.banner p {
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+}
+
+nav{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+}
+
+.button  {
+  background-color: red;
+  color: white;
+  padding: 0.5rem;
+  margin: 1rem 0;
+
+}
+
+section {
+  width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  align-items: flex-start;
+  flex-flow: column nowrap;
+}
+
+section button {
+  align-self: center;
+}
+
+h2 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-decoration: underline;
+  margin: 1rem 0;
+}
+
+h3 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: 0 0 0.5rem 0;
+}
+
+p{
+  color: #BB8F8F;
+  margin: 0 0 1rem 0;
+  line-height: 1.3rem;
+}
