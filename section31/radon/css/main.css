@@ -17,30 +17,25 @@ header h1 {
   font-family: 'Raleway', sans-serif;
 }
 
-header ul {
-  display: flex;
-  flex-flow: row nowrap;
-  padding: 1rem;
-  justify-content: space-between;
-  width: 80%;
+header nav {
+  display: none;
 }
 
-header ul li {
+
+header nav a {
   background-color: #dbdbdb;
   padding: 0.5rem;
   border-radius: 3px;
 }
-.line{
-  width: 25vw;
-  background-color: #FFFFFF;
+
+header nav div{
+  width: 25%;
+  border-bottom: 1px solid darkgrey;
   padding:0;
-}
-.line span {
-  width: 35vw;
-  height: 1px;
   background-color: #00000;
-  width: 10px;
 }
+
+
 
 
 .banner{
@@ -86,6 +81,7 @@ nav{
 
 }
 
+
 section {
   width: 70vw;
   margin: 0 auto;
@@ -116,6 +112,13 @@ aside {
   margin: 0 auto;
   display: flex;
   justify-content: center;
+}
+
+aside div {
+  margin: 1.5rem;
+}
+aside img {
+  display: none;
 }
 
 ol{

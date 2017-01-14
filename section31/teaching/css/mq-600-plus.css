@@ -1,0 +1,30 @@
+body{
+  background-image: url("../img/g_s_03_five.jpg");
+  background-position: top;
+}
+
+.right{
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+footer > nav{
+  width: 80vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer > nav > a {
+  font-size: 2rem;
+  color: #d3d3d3;
+  padding: 0.5rem;
+  border-radius: 3px;
+
+}
+
+footer > nav > a:hover{
+  background-color: rgba(255,255,255,0.3);
+}
