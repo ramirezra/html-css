@@ -1,0 +1,145 @@
+body{
+
+}
+
+header {
+  font-family: 'Roboto', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f5f5f5;
+
+  font-size: 1.2rem;
+  position: fixed;
+  width: 100%;
+}
+
+header h1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  width: 100%;
+}
+
+header h1:hover{
+  color: blue;
+}
+header nav{
+  display: none;
+}
+
+.atf{
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  height: 100vh;
+}
+
+.banner{
+  background-image: url("../img/adventure-sm.jpg");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 80vh;
+}
+
+.atf-bottom{
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  height: 20vh;
+  background-color: #f5f5f5;
+}
+
+.atf-bottom h1 {
+  font-size: 2.5rem;
+}
+
+.atf-bottom a {
+  border-radius: 3px;
+  color: white;
+  background-color: #333333;
+  padding: 1rem;
+  width: 20vw;
+
+  font-size: 1.2rem;
+  text-align: center;
+  margin: 1rem;
+}
+
+.atf-bottom a:hover {
+  background-color: #0ebfe9;
+}
+
+.gallery {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+.gallery img{
+  margin: 3px auto;
+}
+
+.info {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-items: center;
+
+}
+
+.info article{
+  min-width: 30vh;
+  padding: 10px;
+
+}
+
+.info article h2{
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.info article p{
+
+}
+.info article a{
+  color: blue;
+  font-size: 0.7rem;
+}
+
+
+
+.bottom {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  color: white;
+}
+
+.bottom a{
+  background-color: deepskyblue;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  border-bottom: 1px solid #4cd2ff;
+  padding: 0.8rem;
+
+}
+
+.bottom a:hover{
+  background-color: royalblue;
+}
+
+footer {
+  background-color: #333333;
+  height: 15vh;
+  color: #858585;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

@@ -1,0 +1,23 @@
+header {
+  flex-flow: row nowrap;
+}
+
+header h1{
+  width: 30vw;
+}
+
+ header nav{
+  color: #551a8b;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header nav a {
+  width: 14vw;
+}
+
+.banner{
+  background-image: url("../img/adventure-lg.jpg");
+  background-position: center;
+}
